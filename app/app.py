@@ -22,7 +22,7 @@ def close_db(error):
   """
   Closes the database connection on teardown
   """
-  if hasattr(g, 'db'):
+  if hasattr(g, 'db_1'):
     g.db.close()
 
 @app.route('/')
