@@ -1,0 +1,19 @@
+version: "2.2"
+services:
+  db:
+    image: postgres:10
+    volumes:
+       - ./db/1-schema.sql:/docker-entrypoint-initdb.d/1-schema.sql
+       - ./db/2-data.sql:/docker-entrypoint-initdb.d/2-data.sql
+    environment:
+      POSTGRES_USER: "seerene"
+      POSTGRES_PASSWORD: "seerene"
+
+  app:
+    build: ./app
+    scale: 3
+
+  lb:
+    build: ./nginx
+    ports:
+     - "8080:80"

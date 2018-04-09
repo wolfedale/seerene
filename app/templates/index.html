@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+    <title>Seerene</title>
+</head>
+<body>
+	<table>
+        	<tr>
+        		<th>ID</th>
+        		<th>Name</th>
+            	</tr>
+            	{% for data in datas %}
+            	<tr>
+              		<td>{{ data.id }}</td>
+              		<td>{{ data.name }}</td>
+            	</tr>
+		{% endfor %}
+	</table>
+</body>
+</html>

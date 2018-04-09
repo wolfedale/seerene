@@ -1,0 +1,11 @@
+INSERT INTO seerene_data (NAME) VALUES ('Pawel');
+INSERT INTO seerene_data (NAME) VALUES ('Grzesik');
+INSERT INTO seerene_data (NAME) VALUES ('Mike');
+INSERT INTO seerene_data (NAME) VALUES ('Clive');
+INSERT INTO seerene_data (NAME) VALUES ('Nick');
+INSERT INTO seerene_data (NAME) VALUES ('Docker');
+INSERT INTO seerene_data (NAME) VALUES ('Terraform');
+INSERT INTO seerene_data (NAME) VALUES ('Vagrant');
+INSERT INTO seerene_data (NAME) VALUES ('Puppet');
+INSERT INTO seerene_data (NAME) VALUES ('ObjectiveC');
+INSERT INTO seerene_data (NAME) VALUES ('Golang');

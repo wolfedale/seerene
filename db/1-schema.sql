@@ -1,0 +1,5 @@
+CREATE TABLE seerene_data
+(
+	ID SERIAL PRIMARY KEY,
+	NAME VARCHAR(50)
+);
